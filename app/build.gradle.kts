@@ -56,6 +56,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //for sdp
     implementation ("com.intuit.sdp:sdp-android:1.1.1")
+    //// lottie animations
     implementation ("com.airbnb.android:lottie:6.3.0")
+    ///for  circle image
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
 }

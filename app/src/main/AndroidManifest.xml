@@ -16,29 +16,26 @@
         android:theme="@style/Theme.ViaBus"
         tools:targetApi="31">
         <activity
-            android:name=".Activitys.SplashScreenActivity"
+            android:name=".Activitys.BuyTicketActivity"
             android:exported="false" />
+        <activity
+            android:name=".Activitys.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activitys.SignInActivity"
             android:exported="false" />
         <activity
             android:name=".Activitys.SignUpActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

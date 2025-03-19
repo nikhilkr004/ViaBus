@@ -26,6 +26,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
         if (FirebaseAuth.getInstance().currentUser==null){
             startActivity(Intent(this, SignUpActivity::class.java))
+            finish()
         }
 
         else{
