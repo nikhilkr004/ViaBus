@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382577585637",
+    "project_id": "quickbus-79746",
+    "storage_bucket": "quickbus-79746.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382577585637:android:76283f84eeb8251f34130c",
+        "android_client_info": {
+          "package_name": "com.example.quickbus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWiWrJmEPE4PgTUYxcwxJU47Qa4paGLO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382577585637:android:229c1bad6d14549b34130c",
+        "android_client_info": {
+          "package_name": "com.example.viabus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWiWrJmEPE4PgTUYxcwxJU47Qa4paGLO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
