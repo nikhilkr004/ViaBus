@@ -62,4 +62,11 @@ dependencies {
     implementation ("com.airbnb.android:lottie:6.3.0")
     ///for  circle image
     implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+    /// bar code scanning
+    implementation ("com.google.mlkit:barcode-scanning:17.3.0")
+    implementation ("com.journeyapps:zxing-android-embedded:4.3.0") // ZXing for QR Code scanning
+
+    ///razorpay
+    implementation ("com.razorpay:checkout:1.6.40")
 }

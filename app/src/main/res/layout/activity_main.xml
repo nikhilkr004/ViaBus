@@ -76,10 +76,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11">
 
         <LinearLayout
+            android:id="@+id/bookTicketBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:clickable="true"
+            android:focusable="true"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -108,10 +112,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/viewTicketsActivity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/ripple_effect"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -142,6 +148,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/ripple_effect"
             android:gravity="center"
             android:orientation="vertical">
 

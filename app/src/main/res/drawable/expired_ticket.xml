@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed (Click Effect) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_5sdp" />
+            <stroke
+                android:width="@dimen/_1sdp"
+                android:color="#D32F2F" />  <!-- Darker red for effect -->
+            <solid android:color="#FFCDD2" /> <!-- Lighter red for click effect -->
+        </shape>
+    </item>
+
+    <!-- Default State -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_5sdp" />
+            <stroke
+                android:width="@dimen/_1sdp"
+                android:color="#F44336" />
+            <solid android:color="#EDBFBF" />
+        </shape>
+    </item>
+</selector>

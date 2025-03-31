@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "382577585637",
-    "project_id": "quickbus-79746",
-    "storage_bucket": "quickbus-79746.firebasestorage.app"
+    "project_number": "691279137732",
+    "project_id": "date-wala",
+    "storage_bucket": "date-wala.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:382577585637:android:76283f84eeb8251f34130c",
+        "mobilesdk_app_id": "1:691279137732:android:d2e7eab81a9d16bb54f291",
         "android_client_info": {
-          "package_name": "com.example.quickbus"
+          "package_name": "com.example.datewala"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCWiWrJmEPE4PgTUYxcwxJU47Qa4paGLO4"
+          "current_key": "AIzaSyBByIdrx5wI-KaVPt7_pmvkrFSTbRjXXKM"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:382577585637:android:229c1bad6d14549b34130c",
+        "mobilesdk_app_id": "1:691279137732:android:766648777b37939354f291",
         "android_client_info": {
           "package_name": "com.example.viabus"
         }
@@ -34,7 +34,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCWiWrJmEPE4PgTUYxcwxJU47Qa4paGLO4"
+          "current_key": "AIzaSyBByIdrx5wI-KaVPt7_pmvkrFSTbRjXXKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691279137732:android:11c6895be6a8a42f54f291",
+        "android_client_info": {
+          "package_name": "com.example.viabusbackend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByIdrx5wI-KaVPt7_pmvkrFSTbRjXXKM"
         }
       ],
       "services": {

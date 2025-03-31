@@ -37,7 +37,10 @@ class SignUpActivity : AppCompatActivity() {
         auth= FirebaseAuth.getInstance()
         db=FirebaseFirestore.getInstance()
 
-
+binding.signIntxt.setOnClickListener {
+    startActivity(Intent(this,SignInActivity::class.java))
+    finish()
+}
 
         binding.continuee.setOnClickListener {
             val name=binding.name.text.toString()

@@ -2,8 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -16,8 +21,17 @@
         android:theme="@style/Theme.ViaBus"
         tools:targetApi="31">
         <activity
-            android:name=".Activitys.BuyTicketActivity"
+            android:name=".Activitys.AllTicketsActivity"
             android:exported="false" />
+        <activity
+            android:name=".Activitys.BookedTicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.ConfirmTicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.BuyTicketActivity"
+            android:exported="true" />
         <activity
             android:name=".Activitys.SplashScreenActivity"
             android:exported="true">
